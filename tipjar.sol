@@ -62,7 +62,8 @@ if(waitress.length >= 1){ for(uint i=0; i<waitress.length; i++){
                if(waitress[i].walletAddress == walletAddress){
                 waitressExist = true;
                }
-            } } // Check Logic
+            }
+ } // Check Logic
 
 if(waitressExist == false){
 

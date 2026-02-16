@@ -13,6 +13,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "addOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address payable",
 						"name": "walletAddress",
 						"type": "address"
@@ -41,6 +54,38 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "owners",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "ownerAddress",
+						"type": "address"
+					}
+				],
+				"name": "removeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "viewWaitress",
 				"outputs": [
@@ -62,7 +107,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct tips.Waitress[]",
+						"internalType": "struct Tips.Waitress[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -97,7 +142,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tipjar.sol": "tips"
+			"tipjar.sol": "Tips"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -112,11 +157,11 @@
 	},
 	"sources": {
 		"tipjar.sol": {
-			"keccak256": "0x0af103eeb2ea54829cf2a9ff42630297e7985d2d0989f83f38010ebe204ebbb3",
+			"keccak256": "0x9269cd3428f45b49e94c59dc577ac612fc726a80a10b630d559a0b07e19302b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7bc81e869d5257c6c0cd78e5a8a875f545445d5aae7b1edeb83414ab67574824",
-				"dweb:/ipfs/QmWudxZ3xgQrVSJjBrE2ELmV7J7fkQZEUsEczXdtc6yz2f"
+				"bzz-raw://34cd4c859ce4809fe67fb5ba7bc4e5985083094ade367d7b5903fff8dc46a0b9",
+				"dweb:/ipfs/QmTg76aXXcnakvaZkeDLKeK1Edujx2GM35FrNhfM53SaMn"
 			]
 		}
 	},
